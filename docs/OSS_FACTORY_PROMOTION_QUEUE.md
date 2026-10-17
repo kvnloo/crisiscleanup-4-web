@@ -17,7 +17,7 @@ Tracked via registry PR https://github.com/kvnloo/oss-factory/pull/191 (provisio
 - Requirement: https://github.com/CrisisCleanup/crisiscleanup-4-web/issues/1164 — failed queue removal must not show success.
 - Source: `civic/phone-queue-error-toast-1164` @ `f3264b5ad9acd7b1f9728389e468618a69fffbef`.
 - Change: catch rejected `completeCallsForPhoneNumber`; use existing `getErrorMessage` error toast; success only on resolved promise.
-- CI: https://github.com/CrisisCleanup/crisiscleanup-4-web/actions/runs/36838683698 — `action_required`, **zero jobs**; not a passing test.
+- CI: https://github.com/CrisisCleanup/crisiscleanup-4-web/actions/runs/36838683698 — `action_required`, **zero jobs**; not a passing test. Requested optional workflow approval once on the existing PR: https://github.com/CrisisCleanup/crisiscleanup-4-web/pull/1387#issuecomment-6243118760.
 - Gate: targeted hook test for rejection/success, normal TypeScript tests/build, maintainers' CI approval; no parallel PR.
 - Next: verify test harness and CI activation, update same PR rather than create duplicates.
 
